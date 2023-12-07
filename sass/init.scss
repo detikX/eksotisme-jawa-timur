@@ -5,6 +5,11 @@ section {
     z-index: 11;
     background: #eee;
     position: relative;
+    p {
+        @media screen and (max-width:365px) {
+            font-size: .85rem;
+        }
+    }
 }
 
 .wrap-detikx {
