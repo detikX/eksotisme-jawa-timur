@@ -19,7 +19,7 @@
             height: 140%;
             @media screen and (max-width:768px) {
                 left: 0;
-                bottom: -40vh;
+                bottom: -78vh;
                 width: fit-content;
                 height: auto;
             }
@@ -32,12 +32,12 @@
             height: 80%;
             @media screen and (max-width:768px) {
                 left: initial;
-                /* top: -12vh; */
-                bottom: 8vh;
+                bottom: -8vh;
                 width: fit-content;
                 height: auto;
                 transform: rotate(-29deg);
                 right: 0;
+            
             }
         }
         &-1 {
@@ -46,10 +46,11 @@
             height: 140%;
             bottom: -10vh;
             @media screen and (max-width:768px) {
-                left: -10vw;
+                left: -76vw;
                 width: auto;
-                height: 100%;
-                bottom: -16vh;
+                height: 80%;
+                bottom: -20vh;
+            
             }
         }
         img {
@@ -71,8 +72,8 @@
             bottom: 30%;
             height: 40vh;
             @media screen and (max-width:768px) {
-                height: 24vh;
-                bottom: 30vh;
+                height: 18vh;
+                bottom: 18vh;
             }
         }
         &.mobil-2 {
@@ -82,8 +83,8 @@
             @media screen and (max-width:768px) {
                 left: initial;
                 // bottom: 24vh;
-                height: 20vh;
-                bottom: 16vh;
+                height: 18vh;
+                bottom: 3vh;
                 right: -20vw;
             }
         
@@ -103,7 +104,7 @@
             height: fit-content;
             // width: 33vw;
             @media screen and (max-width:768px) {
-                bottom: 8vh;
+                bottom: -3vh;
             }
         }
     }
@@ -111,10 +112,21 @@
     .judul {
         color: #ffe473;
         font-size: 2.2rem;
+        text-align: right;
+        @media screen and (max-width:768px) {
+            font-size: 1.8rem;
+            text-align: left;
+        }
     }
 
     .content {
         text-align: right;
         color: white;
+        padding: 8px 8px;
+        border-radius: 16px;
+        background: linear-gradient(to bottom, transparent, rgba(#a55e3c,.7));
+        @media screen and (max-width:768px) {
+            text-align: left;
+        }
     }
 }
