@@ -1,0 +1,16 @@
+.pantai {
+    background: linear-gradient(to left, #058ac7, #95e0ce);
+    overflow: hidden;
+    .ombak {
+        position: absolute;
+        right: 2vw;
+        bottom: -8vh;
+        width: auto;
+        height: 90vh;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
