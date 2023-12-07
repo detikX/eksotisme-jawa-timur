@@ -1,14 +1,17 @@
 .cerita {
     // background: #a55e3c;
     background: #a55e3c;
-    overflow: hidden;
-    .helping-abs {
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        height: 100vh;
+    overflow: clip;
+    @media screen and (max-width:768px) {
+        // padding: 32px 0 40vh;
     }
+    // .helping-abs {
+    //     position: absolute;
+    //     left: 0;
+    //     bottom: 0;
+    //     right: 0;
+    //     height: 100vh;
+    // }
     .abs {
         position: absolute;
         &-3 {
@@ -109,6 +112,12 @@
         }
     }
 
+    .wrap-detikx {
+        @media screen and (max-width:768px) {
+            margin-top: -100vh;
+        }
+    }
+
     .judul {
         color: #ffe473;
         font-size: 2.2rem;
@@ -123,10 +132,18 @@
         text-align: right;
         color: white;
         padding: 8px 8px;
+        margin-bottom: 10vh;
         border-radius: 16px;
         background: linear-gradient(to bottom, transparent, rgba(#a55e3c,.7));
         @media screen and (max-width:768px) {
             text-align: left;
+            margin-bottom: 15vh;
+        }
+        &.mar-bot {
+            @media screen and (max-width:768px) {
+                margin-bottom: 50vh;
+            }
         }
     }
+
 }
