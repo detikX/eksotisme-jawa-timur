@@ -1,6 +1,26 @@
 .pesisir {
     background: linear-gradient(to top, #fdbb9b, #f8e99b);
     padding: 0;
+    .wrap-detikx {
+        margin-top: -50vh;
+    }
+    .judul {
+        font-size: 2.8rem;
+        color: white;
+    }
+    .content {
+
+    }
+    .hello {
+        &.mar-bot {
+            margin-bottom: 50vh;
+        }
+        background: linear-gradient(to bottom, #faae2e, rgba(#faae2e,.7));
+        padding: 16px;
+        border-radius: 16px;
+        margin-bottom: 20vh;
+        color: white;
+    }
     .mobil {
         position: absolute;
         bottom: 72px;
