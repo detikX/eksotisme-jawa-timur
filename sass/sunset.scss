@@ -1,6 +1,17 @@
 .sunset {
-    background: linear-gradient(to top, #f0a24b, #fb3d36);
-    overflow: clip;
+    // overflow: clip;
+    padding-top: 0;
+    background: #f1a04b;
+    padding-bottom: 1px;
+    .bg {
+        background: linear-gradient(to top, #f0a24b 25%, #fb3d36 25%);
+        position: absolute;
+        inset: 0;
+        // background: green;
+        @media screen and (max-width:768px) {
+            background:linear-gradient(to top, #f0a24b 37%, #fb3d36 37%)
+        }
+    }
     .img {
         width: fit-content;
         height: auto;
@@ -59,7 +70,7 @@
         bottom: 15vh;
         left: 50%;
         z-index: 1;
-        width: fit-content;
+        width: 30%;
         height: auto;
         transform: translate(-50%, 0);
         @media screen and (max-width:768px) {

@@ -1,6 +1,7 @@
 .pantai {
     background: linear-gradient(to left, #058ac7, #95e0ce);
     overflow: clip;
+    display: none;
     @media screen and (max-width:768px) {
         background: linear-gradient(to bottom, #058ac7, #95e0ce);
     }
