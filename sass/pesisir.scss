@@ -1,0 +1,14 @@
+.pesisir {
+    .mobil {
+        position: absolute;
+        bottom: 72px;
+        right: 0;
+        width: fit-content;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
