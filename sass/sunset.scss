@@ -33,9 +33,9 @@
         height: auto;
         transform: translate(-50%,0);
         @media screen and (max-width:768px) {
-            width: 100%;
-            height: auto;
-            bottom: 35vh;
+            width: 150%;
+            height: fit-content;
+            bottom: 25vh;
         }
     }
     .matahari {
@@ -59,6 +59,9 @@
         position: absolute;
         right: 15vw;
         bottom: 40vh;
+        @media screen and (max-width:768px) {
+            bottom: 60vh;
+        }
     }
     
     .judul {
