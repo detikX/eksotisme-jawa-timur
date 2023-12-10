@@ -70,17 +70,59 @@
                 left: -100vw;
             }
         }
+
+        @keyframes banner {
+            0% {
+                transform: rotateY(0deg);
+                bottom: 30%;//-100px;
+                left: 5%;
+                // opacity: 0;
+            }
+            20% {
+                // transform: rotateY(0deg);
+                bottom: 30%;//-100px;
+                left: 5%;
+                // opacity: .3;
+            }
+            50% {
+                // transform: rotateY(0deg);
+                bottom: 70%;
+                left: -30%;
+                // opacity: 1;
+            }
+            51% {
+                // transform: rotateY(180deg);
+                bottom: calc(50% + 300px);
+                left: -55%;
+                // opacity: 1;
+            }
+            100% {
+                // transform: rotateY(180deg);
+                bottom: 30%;
+                left: 5%;
+                // opacity: 0;
+            }
+        }
         &.mobil-1 {
             left: 5%;
             bottom: 30%;
-            height: 40vh;
+            height: 250px;
+            // opacity: 0;
+            width: fit-content;
+            animation: linear infinite;
+            animation-name: banner;
+            animation-duration: 12s;
             @media screen and (max-width:768px) {
                 height: 18vh;
                 bottom: 18vh;
             }
         }
+
+
+
         &.mobil-2 {
             left: 20%;
+           
             bottom: 10vh;
             height: 30vh;
             @media screen and (max-width:768px) {
@@ -101,8 +143,44 @@
             }
         }
 
+        @keyframes kereta {
+            0% {
+                // transform: rotateY(0deg);
+                bottom: -20vh;//-100px;
+                left: 15vw;
+                // opacity: 0;
+            }
+            30% {
+                // transform: rotateY(0deg);
+                bottom: -20vh;//-100px;
+                left: 15vw;
+                // opacity: .3;
+            }
+            50% {
+                // transform: rotateY(0deg);
+                bottom: 50vh;
+                left: -45vw;
+                // opacity: 1;
+            }
+            51% {
+                // transform: rotateY(180deg);
+                bottom: 55vh;
+                left: -50vw;
+                // opacity: 1;
+            }
+            100% {
+                // transform: rotateY(180deg);
+                bottom: -20vh;
+                left: 15vw;
+                // opacity: 0;
+            }
+        }
+
         &.kereta-2 {
             bottom: -10vh;
+            animation: linear infinite;
+            animation-name: kereta;
+            animation-duration: 10s;
             left: 8vw;
             height: fit-content;
             // width: 33vw;
