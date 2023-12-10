@@ -103,6 +103,39 @@
                 // opacity: 0;
             }
         }
+
+        @keyframes banner-mob {
+            0% {
+                transform: rotateY(0deg);
+                bottom: 18vh;//-100px;
+                left: 12%;
+                // opacity: 0;
+            }
+            20% {
+                // transform: rotateY(0deg);
+                bottom: 18vh;//-100px;
+                left: 12%;
+                // opacity: .3;
+            }
+            50% {
+                // transform: rotateY(0deg);
+                bottom: 40vh;
+                left: -60%;
+                // opacity: 1;
+            }
+            51% {
+                // transform: rotateY(180deg);
+                bottom: 43vh;
+                left: -62%;
+                // opacity: 1;
+            }
+            100% {
+                // transform: rotateY(180deg);
+                bottom: 18vh;
+                left: 12%;
+                // opacity: 0;
+            }
+        }
         &.mobil-1 {
             left: 5%;
             bottom: 30%;
@@ -115,6 +148,10 @@
             @media screen and (max-width:768px) {
                 height: 18vh;
                 bottom: 18vh;
+                left: 12%;
+                animation: linear infinite;
+                animation-name: banner-mob;
+                animation-duration: 15s;
             }
         }
 
@@ -176,16 +213,54 @@
             }
         }
 
+        @keyframes kereta-mob {
+            0% {
+                // transform: rotateY(0deg);
+                bottom: -3vh;//-100px;
+                left: 12%;
+                // opacity: 0;
+            }
+            30% {
+                // transform: rotateY(0deg);
+                bottom: -3vh;//-100px;
+                left: 12%;
+                // opacity: .3;
+            }
+            50% {
+                // transform: rotateY(0deg);
+                bottom: 20%;
+                left: -70%;
+                // opacity: 1;
+            }
+            51% {
+                // transform: rotateY(180deg);
+                bottom: 22%;
+                left: -83%;
+                // opacity: 1;
+            }
+            100% {
+                // transform: rotateY(180deg);
+                bottom: -3vh;
+                left: 12%;
+                // opacity: 0;
+            }
+        }
+
         &.kereta-2 {
             bottom: -10vh;
             animation: linear infinite;
             animation-name: kereta;
             animation-duration: 10s;
-            left: 8vw;
+            left: 15vw;
             height: fit-content;
             // width: 33vw;
             @media screen and (max-width:768px) {
                 bottom: -3vh;
+                left: 8%;
+                height: 180px;
+                animation: linear infinite;
+                animation-name: kereta-mob;
+                animation-duration: 12s;
             }
         }
     }
