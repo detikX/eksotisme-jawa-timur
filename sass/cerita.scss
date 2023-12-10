@@ -26,6 +26,12 @@
                 width: fit-content;
                 height: auto;
             }
+            @media screen and (min-width:1900px) {
+                left: 0;
+                top: 0;
+                bottom: 0;
+                height: 100%;
+            }
         }
         &-2 {
             left: 35vw;
@@ -42,6 +48,12 @@
                 right: 0;
             
             }
+            @media screen and (min-width:1900px) {
+                left: 25vw;
+                top: -12vh;
+                bottom: 0;
+                height: 80%;
+            }
         }
         &-1 {
             left: -20vw;
@@ -54,6 +66,13 @@
                 height: 80%;
                 bottom: -20vh;
             
+            }
+
+            @media screen and (min-width:1900px) {
+                left: -20vw;
+                // width: auto;
+                height: 100%;
+                bottom: -10vh;
             }
         }
         img {
@@ -68,6 +87,12 @@
             height: 100%;
             @media screen and (max-width:768px) {
                 left: -100vw;
+            }
+            @media screen and (min-width:1900px) {
+                // bottom: -46vh;
+                left: -70vw;
+                // width: auto;
+                // height: 100%;
             }
         }
 
