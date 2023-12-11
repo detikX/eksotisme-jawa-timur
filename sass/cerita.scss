@@ -3,15 +3,19 @@
     background: #a55e3c;
     overflow: clip;
     @media screen and (max-width:768px) {
-        // padding: 32px 0 40vh;
+       
     }
-    // .helping-abs {
-    //     position: absolute;
-    //     left: 0;
-    //     bottom: 0;
-    //     right: 0;
-    //     height: 100vh;
-    // }
+    &::before {
+        content: "";
+        position: absolute;
+        top: -10vh;
+        width: 100%;
+        height: 100px;
+        left: 0;
+        right: 0;
+        background: #a55e3c;
+    }
+
     .abs {
         position: absolute;
         &-3 {
@@ -26,7 +30,7 @@
                 width: fit-content;
                 height: auto;
             }
-            @media screen and (min-width:1900px) {
+            @media screen and (min-width:1600px) {
                 left: 0;
                 top: 0;
                 bottom: 0;
@@ -48,7 +52,7 @@
                 right: 0;
             
             }
-            @media screen and (min-width:1900px) {
+            @media screen and (min-width:1600px) {
                 left: 25vw;
                 top: -12vh;
                 bottom: 0;
@@ -88,9 +92,9 @@
             @media screen and (max-width:768px) {
                 left: -100vw;
             }
-            @media screen and (min-width:1900px) {
-                // bottom: -46vh;
-                left: -70vw;
+            @media screen and (min-width:1200px) {
+                bottom: -40vh;
+                left: -50vw;
                 // width: auto;
                 // height: 100%;
             }

@@ -3,6 +3,21 @@
     padding-top: 0;
     background: #f1a04b;
     padding-bottom: 1px;
+    .help-bg {
+        position: absolute;
+        top: -8vh;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        transform: rotate(180deg);
+        z-index: 2;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .bg {
         background: linear-gradient(to top, #f0a24b 25%, #fb3d36 25%);
         position: absolute;
@@ -23,10 +38,10 @@
     }
     .awan {
         position: absolute;
-        top: 5%;
+        top: 25%;
         left: 15%;
         height: auto;
-        width: 30%;
+        width: 300px;
         @media screen and (max-width:768px) {
             width: fit-content;
             
@@ -82,10 +97,50 @@
     .wrap-detikx {
         margin-top: -50vh;
     }
+
+    @keyframes burung {
+        0%, 100% {
+          bottom: 50vh;
+          opacity: 0;
+          transform: scale(0);
+        }
+        20% {
+            bottom: 50vh;
+            opacity: 0;
+            transform: scale(0);
+        }
+        30% {
+            bottom: 50vh;
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+          bottom: 52vh;
+          opacity: 1;
+          transform: scale(1);
+        }
+        70% {
+            bottom: 55vh;
+            transform: scale(1);
+            opacity: .5;
+        }
+        80% {
+            bottom: 55vh;
+            opacity: 0;
+            transform: scale(0);
+        }
+        100% {
+            bottom: 55vh;
+            opacity: 0;
+            transform: scale(0);
+        }
+      }
     .burung {
+        animation: burung 15s linear infinite;
         position: absolute;
+        opacity: 0;
         right: 15vw;
-        bottom: 40vh;
+        bottom: 50vh;
         @media screen and (max-width:768px) {
             bottom: 60vh;
         }
