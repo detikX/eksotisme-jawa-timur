@@ -15,6 +15,10 @@
                 right: 60%;
                 width: 80px;
             }
+            @media screen and (max-width:363px) {
+                bottom: 20%;
+            }
+
         }
         &.bwi {
             bottom: 25%;
@@ -23,6 +27,9 @@
                 width: 110px;
                 bottom: 35%;
                 right: 8%;
+            }
+            @media screen and (max-width:363px) {
+                bottom: 28%;
             }
         }
         img {
