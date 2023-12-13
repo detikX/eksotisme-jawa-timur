@@ -1,7 +1,7 @@
 .cerita {
     // background: #a55e3c;
     background: #a55e3c;
-    padding: 0;
+    // padding: 0;
     overflow: clip;
     // @media screen and (max-width:768px) {
     //    padding: 0 0 30vh;
@@ -93,7 +93,7 @@
             @media screen and (max-width:768px) {
                 left: -100vw;
             }
-            @media screen and (min-width:1200px) {
+            @media screen and (min-width:1400px) {
                 bottom: -40vh;
                 left: -50vw;
                 // width: auto;
@@ -192,6 +192,7 @@
            
             bottom: 10vh;
             height: 30vh;
+            z-index: 1;
             @media screen and (max-width:768px) {
                 left: initial;
                 height: 18vh;
@@ -318,6 +319,7 @@
             animation-name: kereta;
             animation-duration: 10s;
             left: 15vw;
+            z-index: 2;
             height: fit-content;
             // width: 33vw;
             @media screen and (max-width:768px) {
