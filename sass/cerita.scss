@@ -221,12 +221,12 @@
                 0%, 100% {
                     transform: rotate(-5deg);
                     top: 2%;
-                    left: -40%;
+                    left: -30%;
                 }
                 50% {
-                    transform: rotate(-15deg);
+                    transform: rotate(-20deg);
                     top: 4%;
-                    left: -36%;
+                    left: -24%;
                 }
               }
             .gali {
@@ -245,7 +245,7 @@
                     
                 }
                @media screen and (min-width:1500px) {
-                    animation: initial;
+                    animation: GaliBig 2s linear infinite;
                     left: -30%;
                } 
                 @media screen and (max-width:400px) {
