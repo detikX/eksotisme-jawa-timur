@@ -216,6 +216,19 @@
                     left: -36%;
                 }
               }
+
+              @keyframes GaliBig {
+                0%, 100% {
+                    transform: rotate(-5deg);
+                    top: 2%;
+                    left: -40%;
+                }
+                50% {
+                    transform: rotate(-15deg);
+                    top: 4%;
+                    left: -36%;
+                }
+              }
             .gali {
                 animation: Gali 2s linear infinite;
                 position: absolute;
@@ -231,6 +244,10 @@
                     left: -50%;
                     
                 }
+               @media screen and (min-width:1500px) {
+                    animation: initial;
+                    left: -30%;
+               } 
                 @media screen and (max-width:400px) {
                     width: 80px;
                     height: 80px;
