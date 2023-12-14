@@ -26,6 +26,9 @@
         right: 30%;
         width: 220px;
         height: auto;
+        @media screen and (min-width:1400px) {
+            transform: translate(0,-24%)
+        }
         @media screen and (max-width:768px) {
             position: absolute;
             top: 26%;
