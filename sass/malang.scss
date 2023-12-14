@@ -1,5 +1,24 @@
 .malang {
+    background: #d7f0f7;
     .judul {
         font-size: 3.3rem;
+    }
+
+    .wrap-detikx {
+        position: relative;
+        top: -90vh;
+    }
+
+    .taman {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 70%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
     }
 }
