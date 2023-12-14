@@ -376,9 +376,23 @@
         color: #ffe473;
         font-size: 2.2rem;
         text-align: right;
+        margin: 0;
         @media screen and (max-width:768px) {
             font-size: 1.8rem;
             text-align: left;
+        }
+    }
+
+    .sub-judul {
+        font-size: 1rem;
+        text-align: right;
+        font-weight: 700;
+        color: #e2ac71;
+        @media screen and (max-width:768px) {
+            text-align: left;
+            padding: 0;
+
+            // margin: 0;
         }
     }
 
