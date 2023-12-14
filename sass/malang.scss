@@ -56,6 +56,7 @@
         @media screen and (max-width:768px) {
             font-size: 2.5rem;
             top: 10%;
+            line-height: 2rem;
             right: 5%;
             width: 70%;
             text-align: right;
@@ -69,6 +70,9 @@
         background: linear-gradient(to bottom, white, rgba(white,.8));
         padding: 16px;
         border-radius: 16px;
+        @media screen and (max-width:768px) {
+            margin-bottom: 10vh;
+        }
     }
     .wrap-detikx {
         position: relative;
