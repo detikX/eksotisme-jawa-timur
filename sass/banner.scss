@@ -6,9 +6,11 @@
         bottom: 8%;
         width: 40vw;
         height: auto;
+        z-index: 4;
         @media screen and (max-width:768px) {
             width: 100%;
             right: -16%;
+            bottom: 5%;
         }
         img {
             width: 100%;
@@ -16,10 +18,31 @@
             object-fit: contain;
         }
     }
+
+    .pasir {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: auto;
+        @media screen and (max-width:768px) {
+            inset: initial;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 200%;
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            
+        }
+    }
     .judul {
         position: absolute;
         left: 50%;
-        top: 50%;
+        top: 30%;
         width: 70%;
         transform: translate(-50%, -50%);
         @media screen and (max-width:768px) {
