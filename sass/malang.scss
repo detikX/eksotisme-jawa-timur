@@ -101,3 +101,22 @@
         }
     }
 }
+
+
+.bwi-bromo {
+    min-height: 50vh;
+    // position: fixed;
+    // z-index: 1;
+    // inset: 0;
+    .img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        bottom: 5%;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
