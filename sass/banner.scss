@@ -1,5 +1,18 @@
 .banner {
     background: #f7c58d;
+    .truck {
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 200px;
+        z-index: 22;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .matahari {
         position: absolute;
         bottom: 50%;

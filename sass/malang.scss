@@ -1,6 +1,18 @@
 .malang {
     background: #d7f0f7;
     padding: 0;
+
+    .kota-batu {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     .judul {
         font-size: 3.3rem;
         @media screen and (max-width:768px) {
@@ -18,6 +30,12 @@
         @media screen and (max-width:405px) {
             background: linear-gradient(to top, #c5d566 67%, #d7f0f7 20%);
         }
+        @media screen and (min-width:1700px) {
+            background: linear-gradient(to top, #c5d566 37%, #d7f0f7 20%);
+        }
+        @media screen and (max-width:1600px) {
+            background: linear-gradient(to top, #c5d566 30%, #d7f0f7 20%);
+        }
     }
 
     .tahu-telur {
@@ -27,7 +45,7 @@
         width: 220px;
         height: auto;
         @media screen and (min-width:1400px) {
-            transform: translate(0,-24%)
+            transform: translate(0,100%)
         }
         @media screen and (max-width:768px) {
             position: absolute;
@@ -48,21 +66,36 @@
 
     .stick-judul {
         font-size: 3.5rem;
-        top: 28%;
-        right: 7%;
+        top: 30%;
+        left: 50%;
         width: 30%;
-        /* text-align: right; */
         position: absolute;
+        z-index: 4;
         text-align: center;
         line-height: 3rem;
+        color: #698e4d;
+        
         text-shadow: 3px 3px silver;
+        transform: translate(-50%,-50%);
+        &::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: -20%;
+            left: 0;
+            bottom: 0px;
+            width: 100%;
+            height: 150%;
+            border: 3px solid;
+        }
         @media screen and (max-width:768px) {
             font-size: 2.5rem;
-            top: 10%;
-            line-height: 2rem;
-            right: 5%;
+            /* top: 10%; */
+            line-height: 2.7rem;
+            /* right: 5%; */
+            /* width: 70%; */
             width: 70%;
-            text-align: right;
+            /* text-align: right; */
             position: absolute;
             
         }
