@@ -104,19 +104,122 @@
 
 
 .bwi-bromo {
-    min-height: 50vh;
+    // min-height: auto;
     // position: fixed;
     // z-index: 1;
     // inset: 0;
-    .img {
+    background: #a55e3c;
+    min-height: 50%;
+    height: 50vh;
+    .awan {
+        position: absolute;
+        left: 0;
+        right: 0;
         width: 100%;
         height: auto;
-        position: absolute;
-        bottom: 5%;
+        bottom: -19%;
+        @media screen and (max-width:768px) {
+            bottom: -5%;
+            
+        }
         img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
+        }
+    }
+    @media screen and (max-width:768px) {
+        height: 25vh;
+    }
+
+    .rutenya {
+        // border: 2px solid;
+        border-bottom: 3px dashed white;
+        position: relative;
+        height: 100%;
+
+        .arrow {
+            position: absolute;
+            left: 50%;
+            width: 120px;
+            top: 20%;
+            transform: translate(-50%,0) rotate(180deg);
+            height: auto;
+            @media screen and (max-width:768px) {
+                width: 70px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+
+    @keyframes kebromo {
+        0% {
+          right: 0;
+          opacity: 0;
+        }
+        20% {
+            right: 0;
+            opacity: 1;
+          }
+        80% {
+          right: 70%;
+          opacity: 1;
+        }
+        90% {
+            right: 70%;
+            opacity: 0;
+        }
+        100% {
+            right: 70%;
+            opacity: 0;
+        }
+      }
+    .img {
+        width: 320px;
+        opacity: 0;
+        animation: kebromo 7s linear infinite;
+        height: auto;
+        right:0;
+        position: absolute;
+        bottom: 0;
+        @media screen and (max-width:768px) {
+            width: 30%;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .from {
+        .nama-1 {
+            position: absolute;
+            right: 5%;
+            top: 20%;
+            font-size: 2rem;
+            color: white;
+            @media screen and (max-width:768px) {
+                font-size: 1rem;
+                // top: 50%;
+            }
+        }
+    }
+
+    .tuju {
+        position: absolute;
+        left: 5%;
+        top: 20%;
+        color: white;
+        font-size: 2rem;
+        @media screen and (max-width:768px) {
+            font-size: 1rem;
+            // top: 50%;
         }
     }
 }
