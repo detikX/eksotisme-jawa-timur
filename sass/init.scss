@@ -16,6 +16,39 @@ section {
     // }
 }
 
+.slick {
+    &-next, &-prev {
+        z-index: 17 !important;
+        &::before {
+            font-family: 'fontAwesome' !important;
+            font-size: 42px !important;
+            color: #fff !important;
+            font-weight: 700 !important;
+            @media screen and (max-width:766px) {
+                font-size: 42px !important;
+            }
+        }
+    }
+    &-prev {
+        left: -12px !important;
+        @media screen and (max-width:768px) {
+            left: -24px !important;
+        }
+        &::before {
+            content:"\f104" !important;
+        }
+    }
+    &-next {
+        right: -12px !important;
+        @media screen and (max-width:768px) {
+            right: -24px !important;
+        }
+        &::before {
+            content:"\f105" !important;
+        }
+    }
+}
+
 
 
 .sticky-mode {
