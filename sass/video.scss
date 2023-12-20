@@ -4,15 +4,15 @@
         position: relative;
         height: 100vh;
         @media screen and (max-width:768px) {
-            height: 50vh;
+            height: 230px;
         }
         iframe {
-            // position: absolute;
-            // inset: 0;
             width: 100%;
-            // height: fit-content;
             height: 100%;
+            filter: drop-shadow(2px 4px 6px black);
             object-fit: cover;
+            /* box-shadow: 2px 3px 5px #bbb; */
+            border-radius: 16px;
         }
         .frame {
             transform: translate(-50%,-50%);
