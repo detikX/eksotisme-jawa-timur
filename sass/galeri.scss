@@ -19,11 +19,12 @@
         &__column {
             display: flex;
             flex-direction: column;
-            width: 45%;
+            width: 50%;
         }
         &__link {
             margin: 2px;
             overflow: hidden;
+            cursor: pointer;
             &:hover {
                 .gallery__image {
                     filter: grayscale(0);

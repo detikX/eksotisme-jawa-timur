@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Eksotisme Jawa Timur</title>
         <link rel="stylesheet" href="sass/bootstrap.min.css">
+        <link rel="stylesheet" href="sass/slick.css">
+        <link rel="stylesheet" href="sass/slick-theme.css">
         <link rel="stylesheet" href="sass/style.css">
     </head>
     <body>
@@ -468,6 +470,10 @@
                         <img src="img/sepeda-2.png" alt>
                     </div>
 
+                    <div class="tahu-telur" hidden>
+                        <img src="img/tahu-telor.png" alt>
+                    </div>
+
                     <div class="kota-batu">
                         <img src="img/kota-batu.png" alt>
                     </div>
@@ -510,9 +516,9 @@
                 <div class="container">
                     <div class="alls">
                         <div class="frame">
-                            <iframe src="https://20.detik.com/embed/230419067"
+                            <!-- <iframe src="https://20.detik.com/embed/230419067"
                                 frameborder="0" scrolling="no"
-                                allowfullscreen="true"></iframe>
+                                allowfullscreen="true"></iframe> -->
                         </div>
                         <!-- <div class="tripod">
                             <img src="img/tripod.png" alt>
@@ -533,7 +539,9 @@
 
                             <div class="gallery__link">
                                 <figure
-                                    class="gallery__thumb gallery__thumb--odd">
+                                    class="gallery__thumb gallery__thumb--odd"
+                                    data-toggle="modal"
+                                    data-target="#pulau-merah">
                                     <img src="img/pulau-merah-foto.jpg"
                                         alt="Pantai
                                             Pulau Merah"
@@ -584,6 +592,32 @@
                     </div>
                 </div>
             </section>
+
+            <!-- Modal -->
+            <div class="modal fade" id="pulau-merah" tabindex="-1"
+                aria-labelledby="pulau-merahLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="pulau-merahLabel">Modal
+                                title</h5>
+                            <button type="button" class="close"
+                                data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary"
+                                data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save
+                                changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </main>
 
