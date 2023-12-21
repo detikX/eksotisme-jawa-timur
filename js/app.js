@@ -1,4 +1,12 @@
-AOS.init();
+$(document).ready(function () {
+    AOS.init();
+  
+    $('img').attr('loading', 'lazy')
+  })
+$(".hello p, .wrap-detikx p").attr({ "data-aos": "fade-in", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
+$(".mobil-ekspedisi").attr({ "data-aos": "fade-left", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
 
 
 $("#pulau-merah").on("shown.bs.modal", function (s) {
