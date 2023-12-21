@@ -1,8 +1,36 @@
 .credit {
     background: #96d7c1;
     @media screen and (max-width:768px) {
-        min-height: 80vh;
-        
+        min-height: 85vh;
+    }
+    h3 {
+        @media screen and (max-width:768px) {
+            text-align: center;
+        }
+    }
+    @media screen and (max-width:400px) {
+        min-height: 110vh;
+    }
+
+    .all {
+        margin-bottom: 8px;
+    }
+    .job {
+        color: #333;
+        font-size: 14px;
+    }
+    .namex {
+        font-weight: bold;
+        color: #293e46;
+        font-family: 'Poppins';
+    }
+    .cene {
+        @media screen and (max-width: 766px) {
+            text-align: center;
+            text-align: center;
+            // border-top: 1px dashed #333;
+            padding-top: 24px;
+        }
     }
     .back {
         position: absolute;

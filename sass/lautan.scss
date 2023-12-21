@@ -1,8 +1,23 @@
 .lautan-pasir {
+    padding: 32px 0 90px;
     .judul {
         font-size: 2.8rem;
         @media screen and (max-width:768px) {
             font-size: 1.8rem;
+        }
+    }
+
+    .awan {
+        position: absolute;
+        bottom: -16px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
 
