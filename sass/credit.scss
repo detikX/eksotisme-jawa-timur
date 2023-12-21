@@ -4,13 +4,17 @@
         content: "";
         position: absolute;
         top: 0;
-        left: 45%;
         transform: translate(0, -50%);
         width: 0;
         height: 0;
+        left: 50%;
         border-left: 25px solid transparent;
         border-right: 25px solid transparent;
         border-top: 50px solid #0d5d6f;
+        @media screen and (max-width:768px) {
+            left: 45%;
+            
+        }
 
     }
     @media screen and (max-width:768px) {
