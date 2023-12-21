@@ -6,6 +6,21 @@
     // @media screen and (max-width:768px) {
     //    padding: 0 0 30vh;
     // }
+
+    .awanx {
+        position: absolute;
+        bottom: -8%;
+        left: 0;
+        right: 0;
+        z-index: 8;
+        width: 100%;
+        height: 200px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
     &::before {
         content: "";
         position: absolute;
