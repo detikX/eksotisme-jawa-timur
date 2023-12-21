@@ -205,6 +205,9 @@
         background: linear-gradient(to bottom, white, rgba(white,.8));
         padding: 16px;
         border-radius: 16px;
+        &.mar-bot {
+            margin-bottom: 50vh;
+        }
         @media screen and (max-width:768px) {
             margin-bottom: 10vh;
         }
