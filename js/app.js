@@ -7,7 +7,7 @@ $(".hello p, .wrap-detikx p").attr({ "data-aos": "fade-up", "data-aos-delay": "3
 
 $(".cene .all").attr({ "data-aos": "fade-in", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
-$(".wrap-detikx h3, .wrap-detikx h4").attr({ "data-aos": "fade-down", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".wrap-detikx h3, .wrap-detikx h4").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".mobil-ekspedisi").attr({ "data-aos": "fade-left", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
