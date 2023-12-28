@@ -30,6 +30,10 @@
             position: relative;
             z-index: 19;
             background: #f7c58d;
+            // &::before {
+            //     content: "";
+            //     background: url('../img/1x/kotak.png');
+            // }
             .bumper {
                 position: absolute;
                 bottom: 80px;
