@@ -5,6 +5,11 @@
 
 .ref {
     background: #f7c58d;
+    padding: 0;
+    // &::before {
+    //     content: "";
+    //     background: url('../img/1x/bg-peta.png') 100% 100% fixed no-repeat;
+    // }
     .secx {
         min-height: 100vh;
         position: relative;
@@ -19,13 +24,17 @@
         }
         &.banners {
             height: 100vh;
+            position: relative;
+            z-index: 19;
+            background: #f7c58d;
             .bumper {
                 position: absolute;
                 bottom: 80px;
-                left: 0;
-                // right: 0;
+                left: 50%;
                 width: 80%;
                 height: auto;
+                transform: translate(-50%,0);
+            
                 @media screen and (max-width:768px) {
                     bottom: 150px;
                     width: 100%;
@@ -36,17 +45,44 @@
                     object-fit: contain;
                 }
             }
+
+            .mobil {
+                position: absolute;
+                right: -16%;
+                bottom: 25%;
+                width: fit-content;
+                height: auto;
+                @media screen and (max-width:768px) {
+                    width: 100%;
+                    right: -25%;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
             .title {
-                font-size: 3rem;
                 text-transform: uppercase;
                 position: absolute;
                 left: 50%;
                 width: 80%;
                 text-align: center;
+                color: #8b5e49;
                 top: 20%;
                 transform: translate(-50%,-50%);
+                h2 {
+                    font-weight: 400 !important;
+                    line-height: 3rem;
+                    font-size: 3rem;
+                    font-family: 'Alfa Slab One', sans-serif;
+                    @media screen and (max-width:768px) {
+                        font-size: 2rem;
+                        line-height: 2rem;
+                        
+                    }
+                }
                 @media screen and (max-width:768px) {
-                    font-size: 2.5rem;
                     width: 100%;
                 }
             }
@@ -142,4 +178,20 @@ footer {
 }
 .gunung .hari {
     display: block;
+}
+
+.berita {
+    .bg-peta{
+        position: fixed;
+        inset: 0;
+        opacity: .6;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
 }
