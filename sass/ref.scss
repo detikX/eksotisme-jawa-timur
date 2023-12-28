@@ -23,11 +23,12 @@
                 position: absolute;
                 bottom: 80px;
                 left: 0;
-                right: 0;
-                width: 100%;
+                // right: 0;
+                width: 80%;
                 height: auto;
                 @media screen and (max-width:768px) {
                     bottom: 150px;
+                    width: 100%;
                 }
                 img {
                     width: 100%;
@@ -116,4 +117,29 @@ footer {
     &::before {
         border-top: 40px solid #f7c58d !important;
     }
+}
+
+.hari {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba($color: #000000, $alpha: .2);
+    transition: 1s;
+    .lala {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        text-align: center;
+        color: white;
+        transform: translate(-50%,-50%);
+        h5 {
+            font-size: 3rem;
+            @media screen and (max-width:768px) {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+.gunung .hari {
+    display: block;
 }
