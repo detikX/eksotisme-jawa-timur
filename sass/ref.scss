@@ -1,0 +1,74 @@
+@import 'init';
+@import 'sunset';
+@import 'cerita';
+@import 'credit';
+
+.ref {
+    background: #f7c58d;
+    .secx {
+        min-height: 100vh;
+        position: relative;
+        &.banners {
+            height: 100vh;
+            .title {
+                font-size: 3rem;
+                text-transform: uppercase;
+                position: absolute;
+                left: 50%;
+                width: 80%;
+                text-align: center;
+                top: 50%;
+                transform: translate(-50%,-50%);
+                @media screen and (max-width:768px) {
+                    font-size: 2.5rem;
+                    width: 100%;
+                }
+            }
+        }
+        .judul {
+            font-size: 3rem;
+        }
+    }
+}
+
+footer {
+	width: 100vw;
+	height: 20px;
+	position: sticky;
+	bottom: 0;
+    z-index: 19;
+	left: 0;
+	background: #fff;
+    @media screen and (max-width:768px) {
+        bottom: 75px;
+    }
+}
+
+#footer__progress_bar {
+	height: 20px;
+	background: #f7c58d;
+	width: 0%;
+    position: relative;
+  text-align: left;
+
+
+}
+
+.imgs {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    right: 0;
+    top: -50px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.credit {
+    &::before {
+        border-top: 50px solid #f7c58d !important;
+    }
+}
