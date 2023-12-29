@@ -103,6 +103,37 @@
                 font-size: 2.2rem;
             }
         }
+
+        &.bromo {
+        }
+    }
+    .ke-bromo {
+        width: 50%;
+        height: 50vh;
+        position: relative;
+        margin: 0 auto;
+        @media screen and (max-width:768px) {
+            height: 300px;
+            
+        }
+        .tpt {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: auto;
+        }
+        .mbl {
+            position: absolute;
+            width: 50%;
+            height: auto;
+            bottom: 0;
+            left: 0;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
     }
 }
 
@@ -174,7 +205,7 @@ footer {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba($color: #000000, $alpha: .2);
+    background: rgba($color: #000000, $alpha: .5);
     transition: 1s;
     .lala {
         position: absolute;

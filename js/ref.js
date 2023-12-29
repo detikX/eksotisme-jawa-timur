@@ -10,7 +10,7 @@ function ScrollIndicator() {
     document.getElementById('footer__progress_bar').style.width = scrolled + "%";
     // document.getElementById('footer__progress_bar').innerHTML = Math.round(scrolled) + "%"
     document.getElementById('footer__progress_bar').innerHTML = mobil;
-    if (Math.round(scrolled) > 40 && Math.round(scrolled) < 45) {
+    if (Math.round(scrolled) > 40 && Math.round(scrolled) < 48) {
         $(".bromo").addClass('gunung')
     } else {
         $(".bromo").removeClass('gunung')
