@@ -205,6 +205,17 @@ footer {
     }
 }
 
+
+.tes {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
 .sharetest {
     display: none;
     @media screen and (max-width:768px) {
