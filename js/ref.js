@@ -5,6 +5,10 @@ $(document).ready(function () {
 //maen aos
 $(".mbl").attr({ "data-aos": "fade-right", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
+$(".hello p").attr({ "data-aos": "fade-up", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
+$(".img").attr({ "data-aos": "zoom-in", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
 window.onscroll = function () { ScrollIndicator() };
 
 var mobil = "<div class='imgs'><img src='img/mobil-kanan.png' /></div>"
