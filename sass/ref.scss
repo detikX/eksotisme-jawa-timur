@@ -11,6 +11,9 @@
     //     background: url('../img/1x/bg-peta.png') 100% 100% fixed no-repeat;
     // }
     .secx {
+        &.kuliner {
+            min-height: auto;
+        }
         min-height: 100vh;
         position: relative;
         .img {
@@ -108,13 +111,14 @@
         }
     }
     .ke-bromo {
-        width: 50%;
         height: 50vh;
+
         position: relative;
         margin: 0 auto;
+        width: 50%;
         @media screen and (max-width:768px) {
             height: 300px;
-            
+        width: 100%;    
         }
         .tpt {
             position: absolute;
