@@ -46,6 +46,9 @@
     //     background: url('../img/1x/bg-peta.png') 100% 100% fixed no-repeat;
     // }
     .secx {
+        &.banyuwangi {
+            padding: 32px 0;
+        }
         &.kuliner {
             min-height: auto;
         }
