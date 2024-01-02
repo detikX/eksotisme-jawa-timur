@@ -56,6 +56,7 @@
       
         @media screen and (max-width:768px) {
             height: 100px;
+            bottom: 72px;
         }
         @media screen and (min-width:1500px) {
             width: 300px;
@@ -80,6 +81,7 @@
         z-index: 3;
         @media screen and (max-width:768px) {
             height: 100px;
+            bottom: 72px;
         }
         @media screen and (min-width:1500px) {
             width: 300px;
@@ -98,7 +100,7 @@
         height: auto;
         @media screen and (max-width:768px) {
             inset: initial;
-            bottom: 0;
+            bottom: 72px;
             left: 0;
             height: 35%;
             right: 0;

@@ -2,6 +2,7 @@
 @import 'sunset';
 @import 'cerita';
 @import 'credit';
+@import 'malang';
 
 .ref {
     background: #f7c58d;
@@ -21,6 +22,9 @@
             height: 320px;
             border-radius: 16px;
             box-shadow: 2px 3px 4px #000;
+            &.no-shadow {
+                box-shadow: none !important;
+            }
             @media screen and (max-width:768px) {
                 height: 220px;
             }
@@ -30,6 +34,9 @@
                 border-radius: 16px;
                 object-fit: cover;
             }
+        }
+        &.malang {
+            background: initial !important;
         }
         &.banners {
             height: 100vh;
@@ -314,4 +321,17 @@ footer {
     padding: 16px;
     border-radius: 16px;
     margin-bottom: 24px;
+    &.no-margin {
+        margin-bottom: 10vh !important;
+    }
+
+}
+.gambar {
+    width: 100%;
+    height: auto;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
 }
