@@ -8,6 +8,32 @@
     background: #f7c58d;
     padding: 0;
 
+    ul {
+        --icon-space: 1.5rem;
+        list-style: none;
+        padding: 0;
+        margin-left: 8px;
+        
+        li {
+            text-align: left;
+            padding-left: var(--icon-space);
+            font-size: 1.6rem;
+            &::before {
+                content: "\f058";
+                color: rgba(#8b5e49,1);
+                font-family: 'FontAwesome';
+                display: inline-block;
+                margin-right: .5rem;
+                // font-size: 1.5rem;
+                margin-left: calc( var(--icon-space) * -1 );
+                @media screen and (max-width:768px) {
+                    // margin-right: 0.2rem;
+                }
+            }
+            // "\f046"
+        }
+    }
+
     .wrap-slide {
         width: 960px;
         margin: 0 auto;
@@ -50,10 +76,16 @@
             .imagex {
                 width: 100%;
                 height: 80vh;
+                @media screen and (max-width:768px) {
+                    height: 320px;
+                }
                 img {
                     width: 100%;
                     height: 100%;
                     object-fit: contain;
+                    @media screen and (max-width:768px) {
+                        object-fit: cover;
+                    }
                 }
             }
         }
@@ -273,6 +305,7 @@ footer {
     display: none;
     position: fixed;
     inset: 0;
+    z-index: 5;
     background: rgba($color: #000000, $alpha: .5);
     transition: 1s;
     .lala {

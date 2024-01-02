@@ -21,10 +21,16 @@ function ScrollIndicator() {
     document.getElementById('footer__progress_bar').style.width = scrolled + "%";
     // document.getElementById('footer__progress_bar').innerHTML = Math.round(scrolled) + "%"
     document.getElementById('footer__progress_bar').innerHTML = mobil;
-    if (Math.round(scrolled) > 40 && Math.round(scrolled) < 48) {
+    if (Math.round(scrolled) > 40 && Math.round(scrolled) < 44) {
         $(".bromo").addClass('gunung')
     } else {
         $(".bromo").removeClass('gunung')
+    }
+
+    if (Math.round(scrolled) > 70 && Math.round(scrolled) < 73) {
+        $(".malang").addClass('gunung')
+    } else {
+        $(".malang").removeClass('gunung')
     }
 }
 
