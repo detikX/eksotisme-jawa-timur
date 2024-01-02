@@ -22,29 +22,36 @@ section {
 .slick {
     &-next, &-prev {
         z-index: 17 !important;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: rgba(#ce9352,.8);
+        &:focus, &:hover {
+            background: rgba(#ce9352,.5);
+        }
         &::before {
             font-family: 'fontAwesome' !important;
-            font-size: 42px !important;
+            font-size: 32px !important;
             color: #fff !important;
             font-weight: 700 !important;
             @media screen and (max-width:766px) {
-                font-size: 42px !important;
+                font-size: 32px !important;
             }
         }
     }
     &-prev {
-        left: -12px !important;
+        left: -16px !important;
         @media screen and (max-width:768px) {
-            left: -24px !important;
+            left: -16px !important;
         }
         &::before {
             content:"\f104" !important;
         }
     }
     &-next {
-        right: -12px !important;
+        right: -16px !important;
         @media screen and (max-width:768px) {
-            right: -24px !important;
+            right: -16px !important;
         }
         &::before {
             content:"\f105" !important;

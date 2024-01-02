@@ -76,18 +76,23 @@
             background: initial !important;
         }
         &.wisata {
+            padding: 32px 0;
             .imagex {
                 width: 100%;
                 height: 80vh;
+                border-radius: 16px;
                 @media screen and (max-width:768px) {
+                    border-radius: 16px;
                     height: 320px;
                 }
                 img {
                     width: 100%;
                     height: 100%;
-                    object-fit: contain;
+                    border-radius: 16px;
+                    object-fit: cover;
                     @media screen and (max-width:768px) {
                         object-fit: cover;
+                        border-radius: 16px;
                     }
                 }
             }
