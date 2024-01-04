@@ -4,11 +4,11 @@ $(document).ready(function () {
 })
 
 //maen aos
-$(".mbl,.jud").attr({ "data-aos": "fade-right", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".mbl,.jud,.jeep .dua").attr({ "data-aos": "fade-right", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".hello p").attr({ "data-aos": "fade-up", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
-$(".img,.jeep,.bg-gold").attr({ "data-aos": "zoom-in", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".img,.bg-gold").attr({ "data-aos": "zoom-in", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 
 

@@ -526,6 +526,26 @@ footer {
     margin: 0 auto;
     height: fit-content;
     margin-bottom: 24px;
+    height: 420px;
+    position: relative;
+    .satu {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: auto;
+    }
+    .dua {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 75%;
+        height: auto;
+        @media screen and (max-width:768px) {
+            bottom: 40px;
+            width: 100%;
+        }
+    }
     @media screen and (max-width:768px) {
         width: 100%;
     }
