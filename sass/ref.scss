@@ -50,7 +50,7 @@
         &.banyuwangi {
             padding: 32px 0;
         }
-        &.kuliner,&.video {
+        &.kuliner,&.video, &.galeri {
             min-height: auto;
         }
         &.video, &.galeri {
@@ -562,5 +562,5 @@ footer {
 }
 
 .geser-kiri {
-    margin-left: 24px;
+    margin-left: 72px;
 }
