@@ -71,7 +71,7 @@
             width: 100%;
             height: 320px;
             border-radius: 16px;
-            box-shadow: 2px 3px 4px #000;
+            // box-shadow: 2px 3px 4px #000;
             &.no-shadow {
                 box-shadow: none !important;
             }
@@ -407,8 +407,37 @@ footer {
         background: transparent !important;
         position: relative;
         overflow: initial;
+        .jud {
+            width: 55%;
+            @media screen and (max-width:768px) {
+                width: 100%;
+            }
+        }
+        h4 {
+            font-size: 3rem;
+            line-height: 3REM;
+            color: #59312e;
+            font-weight: 700;
+            @media screen and (max-width:768px) {
+                font-size: 2.5rem;
+                line-height: 2.5rem;
+            }
+        }
         &::before {
             background: transparent !important;
+        }
+        .bg-gold {
+            display: inline-block;
+            width: 40%;
+            height: auto;
+            @media screen and (max-width:768px) {
+                width: 85%;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
         }
         .hello {
             padding: 16px 200px 16px 16px;
@@ -419,7 +448,7 @@ footer {
         .abs.mobil-2{
             right: -5% !important;
             left: initial;
-            bottom: 20vh;
+            bottom: 0vh;
             // height: 30vh;
             // z-index: 1;
             @media screen and (max-width:768px) {
