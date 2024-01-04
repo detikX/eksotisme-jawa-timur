@@ -4,6 +4,7 @@
 @import 'credit';
 @import 'malang';
 @import 'video';
+@import 'galeri';
 .ref {
     background: #f7c58d;
     padding: 0;
@@ -52,7 +53,7 @@
         &.kuliner,&.video {
             min-height: auto;
         }
-        &.video {
+        &.video, &.galeri {
             padding: 32px 0;
             background: initial !important;
         }
