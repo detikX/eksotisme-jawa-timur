@@ -445,6 +445,8 @@ footer {
             height: auto;
             @media screen and (max-width:768px) {
                 width: 85%;
+                position: relative;
+                left: -10%;
             }
             img {
                 width: 100%;
