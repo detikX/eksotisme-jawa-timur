@@ -476,6 +476,7 @@ footer {
     background: rgba($color: white, $alpha: .4);
     // background: linear-gradient(to top, white, rgba(white,.4), white);
     padding: 16px;
+    position: relative;
     border-radius: 16px;
     margin-bottom: 24px;
     h4 {
@@ -567,4 +568,46 @@ footer {
 
 .geser-kiri {
     // margin-left: 72px;
+}
+
+.imgl {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    img {
+        width: 100%;
+        border-radius: 0 0 16px 16px;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.bocil {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+    width: 40%;
+    height: auto;
+    @media screen and (max-width:768px) {
+        width: 45%;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.pb-100 {
+    padding-bottom: 300px;
+    @media screen and (max-width:768px) {
+        padding-bottom: 200px;
+    }
 }
