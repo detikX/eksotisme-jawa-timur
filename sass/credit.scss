@@ -1,5 +1,18 @@
 .credit {
-    background: #96d7c1;
+    // background: #96d7c1;
+    background: #f2bf86;
+    .new {
+        width: 50%;
+        position: absolute;
+        bottom: 10%;
+        left: 15%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
     &::before {
         content: "";
         position: absolute;
