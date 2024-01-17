@@ -236,6 +236,9 @@
             .lala {
                 position: relative;
                 z-index: 2;
+                @media screen and (max-width:768px) {
+                    right: -10px;
+                }
             }
 
             @keyframes Gali {
