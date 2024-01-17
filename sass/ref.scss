@@ -613,3 +613,16 @@ footer {
         padding-bottom: 200px;
     }
 }
+
+.test-surfing {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 150px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
