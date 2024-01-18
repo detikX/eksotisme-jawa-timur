@@ -27,7 +27,7 @@ function ScrollIndicator() {
     // document.getElementById('footer__progress_bar').innerHTML = Math.round(scrolled) + "%"
     console.log(scrolled);
     document.getElementById('footer__progress_bar').innerHTML = mobil;
-    if (Math.round(scrolled) > 7 && Math.round(scrolled) < 10) {
+    if (Math.round(scrolled) > 4 && Math.round(scrolled) < 6) {
         $(".banyuwangi").addClass('gunung')
     } else {
         $(".banyuwangi").removeClass('gunung')
