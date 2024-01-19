@@ -82,6 +82,11 @@ $("#bromo").on("shown.bs.modal", function (s) {
         $(".slider-nav").slick("setPosition")
 })
 
+$("#batoex").on("shown.bs.modal", function (s) {
+    $(".slider-for").slick("setPosition"),
+        $(".slider-nav").slick("setPosition")
+})
+
 
 
 $("#goldcopper").on("shown.bs.modal", function (s) {

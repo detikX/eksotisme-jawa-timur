@@ -665,3 +665,10 @@ footer {
         object-fit: cover;
     }
 }
+
+.px120 {
+    height: 200px;
+    @media screen and (max-width:768px) {
+        height:150px;
+    }
+}
