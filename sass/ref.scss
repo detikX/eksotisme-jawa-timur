@@ -393,10 +393,11 @@ footer {
     inset: 0;
     z-index: 19;
     background: rgba($color: #000000, $alpha: .5);
-    transition: 1s;
+    // transition: 3s;
     .lala {
         position: absolute;
         left: 50%;
+        transition: 3s;
         top: 50%;
         text-align: center;
         color: white;

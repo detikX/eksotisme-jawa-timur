@@ -14,6 +14,8 @@ $(".img,.bg-gold").attr({ "data-aos": "zoom-in", "data-aos-delay": "100", "data-
 
 
 
+
+
 window.onscroll = function () { ScrollIndicator() };
 
 var mobil = "<div class='imgs'><img src='img/mobil-kanan.png' /></div>"
@@ -27,16 +29,16 @@ function ScrollIndicator() {
     // document.getElementById('footer__progress_bar').innerHTML = Math.round(scrolled) + "%"
     console.log(scrolled);
     document.getElementById('footer__progress_bar').innerHTML = mobil;
-    if (Math.round(scrolled) > 4 && Math.round(scrolled) < 6) {
+    if (Math.round(scrolled) > 4 && Math.round(scrolled) < 5.2) {
         $(".banyuwangi").addClass('gunung')
     } else {
         $(".banyuwangi").removeClass('gunung')
     }
 
-    if (Math.round(scrolled) > 40 && Math.round(scrolled) < 44) {
-        $(".bromo").addClass('gunung')
+    if (Math.round(scrolled) > 18 && Math.round(scrolled) < 19.2) {
+        $(".djawatan").addClass('gunung')
     } else {
-        $(".bromo").removeClass('gunung')
+        $(".djawatan").removeClass('gunung')
     }
 
     if (Math.round(scrolled) > 70 && Math.round(scrolled) < 73) {
