@@ -1,8 +1,8 @@
 .credit {
     // background: #96d7c1;
     // background: #f2bf86;
-    background: #e5d6ca;
-    // background: #f7c58d;
+    // background: #e5d6ca;
+    background: #e2aa6f;
 
     min-height: auto;
 
@@ -31,8 +31,9 @@
     }
 
     .hm {
-        background: linear-gradient(to top, rgba(white,.2), rgba(white,.6));
-        padding: 8px;
+        width: 880px ;
+        background: linear-gradient(to top, rgba(white,.8), rgba(white,.6));
+        padding: 16px;
         border-radius: 16px;
         @media screen and (max-width:768px) {
             // background: linear-gradient(to top, rgba(white,.2), rgba(white,.3));
@@ -74,6 +75,7 @@
         min-height: 85vh;
     }
     h3 {
+        color: #4a2c0c;
         @media screen and (max-width:768px) {
             text-align: center;
         }
@@ -90,10 +92,15 @@
         font-size: .9rem;
     }
     .namex {
-        font-weight: bold;
-        color: #293e46;
+        // font-weight: bold;
+        // color: #293e46;
+        color: #4a2c0c;
         font-size: .9rem;
+        font-weight: 700;
         font-family: 'Poppins';
+        @media screen and (max-width:768px) {
+            font-weight: 700;
+        }
     }
     .cene {
         @media screen and (max-width: 766px) {
