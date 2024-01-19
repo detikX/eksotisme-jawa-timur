@@ -52,6 +52,12 @@ function ScrollIndicator() {
     } else {
         $(".batoe").removeClass('gunung')
     }
+
+    if (Math.round(scrolled) > 84 && Math.round(scrolled) < 85.2) {
+        $(".sby").addClass('gunung')
+    } else {
+        $(".sby").removeClass('gunung')
+    }
 }
 
 $('.autoplay').slick({
