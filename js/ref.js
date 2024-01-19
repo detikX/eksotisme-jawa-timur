@@ -46,6 +46,12 @@ function ScrollIndicator() {
     } else {
         $(".malang").removeClass('gunung')
     }
+
+    if (Math.round(scrolled) > 73 && Math.round(scrolled) < 74.2) {
+        $(".batoe").addClass('gunung')
+    } else {
+        $(".batoe").removeClass('gunung')
+    }
 }
 
 $('.autoplay').slick({
