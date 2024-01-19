@@ -4,7 +4,7 @@ $(document).ready(function () {
 })
 
 //maen aos
-$(".mbl,.jud,.jeep .dua").attr({ "data-aos": "fade-right", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".mbl,.jud,.jeep .dua, .bwi-mlg").attr({ "data-aos": "fade-right", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".bocil").attr({ "data-aos": "fade-left", "data-aos-delay": "100", "data-aos-duration": "500", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
