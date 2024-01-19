@@ -41,7 +41,7 @@ function ScrollIndicator() {
         $(".djawatan").removeClass('gunung')
     }
 
-    if (Math.round(scrolled) > 70 && Math.round(scrolled) < 73) {
+    if (Math.round(scrolled) > 54 && Math.round(scrolled) < 55.2) {
         $(".malang").addClass('gunung')
     } else {
         $(".malang").removeClass('gunung')
