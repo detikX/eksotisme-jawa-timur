@@ -738,17 +738,17 @@ footer {
         opacity: 1;
     }
     80% {
-        left: 50%;
-        top: 28%;
+        left: 55%;
+        top: 30%;
         opacity: 1;
     }
     90% {
-        left: 50%;
+        left: 55%;
         top: 30%;
         opacity: 0;
     }
     100% {
-      left: 50%;
+      left: 55%;
       top: 30%;
       opacity: 0;
     }
@@ -756,7 +756,7 @@ footer {
 .pswt {
     position: absolute;
     left: 20%;
-    width: 120px;
+    width: 90px;
     z-index: 12;
     height: auto;
     top: 35%;
