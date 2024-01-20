@@ -67,6 +67,21 @@ $('.autoplay').slick({
     autoplaySpeed: 3000,
 });
 
+$('.batu-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 3000,
+});
+
+$('.bromo-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    fade: true,
+    autoplaySpeed: 3000,
+});
+
 
 $("#pulau-merah").on("shown.bs.modal", function (s) {
     $(".slider-for").slick("setPosition"),
