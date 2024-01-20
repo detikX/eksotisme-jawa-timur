@@ -90,6 +90,13 @@ $('.pulau-slider').slick({
     fade: true,
     autoplaySpeed: 3000,
 });
+$('.bsi-slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    fade: true,
+    autoplaySpeed: 3000,
+});
 
 
 $("#pulau-merah").on("shown.bs.modal", function (s) {
