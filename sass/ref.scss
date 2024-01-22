@@ -602,7 +602,7 @@ footer {
     right: 10%;
     top: 0;
     z-index: 7;
-    filter: drop-shadow(2px 4px 6px black);
+    filter: drop-shadow(2px 4px 6px rgba(0,0,0,.5));
     width: 290px;
     &::before {
         content: "";
