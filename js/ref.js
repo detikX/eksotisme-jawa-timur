@@ -31,13 +31,15 @@ function ScrollIndicator() {
     // document.getElementById('footer__progress_bar').innerHTML = Math.round(scrolled) + "%"
     console.log(scrolled);
     document.getElementById('footer__progress_bar').innerHTML = mobil;
-    // if (Math.round(scrolled) > 7 && Math.round(scrolled) < 8.2) {
-    //     $(".banyuwangi").addClass('gunung')
-    // } else {
-    //     $(".banyuwangi").removeClass('gunung')
-    // }
+    if (Math.round(scrolled) > 7 && Math.round(scrolled) <8.1) {
+        $(".banyuwangi").addClass('gunung');
+    
+    } 
+    else {
+        $(".banyuwangi").removeClass('gunung')
+    }
 
-    if (Math.round(scrolled) > 18 && Math.round(scrolled) < 19.2) {
+    if (Math.round(scrolled) > 19 && Math.round(scrolled) < 20.2) {
         $(".djawatan").addClass('gunung')
     } else {
         $(".djawatan").removeClass('gunung')
@@ -49,13 +51,13 @@ function ScrollIndicator() {
         $(".malang").removeClass('gunung')
     }
 
-    if (Math.round(scrolled) > 73 && Math.round(scrolled) < 74.2) {
+    if (Math.round(scrolled) > 78 && Math.round(scrolled) < 79.2) {
         $(".batoe").addClass('gunung')
     } else {
         $(".batoe").removeClass('gunung')
     }
 
-    if (Math.round(scrolled) > 84 && Math.round(scrolled) < 85.2) {
+    if (Math.round(scrolled) > 90 && Math.round(scrolled) < 91.2) {
         $(".sby").addClass('gunung')
     } else {
         $(".sby").removeClass('gunung')
