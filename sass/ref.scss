@@ -71,21 +71,25 @@
         &.pembukaan-baru {
             min-height: auto !important;
             .wrap-detikx {
-                padding-top: 6rem;
+                padding-top: 11rem;
+                width: 650px;
                 @media screen and (max-width:768px) {
                     padding-top: 4rem;
                     width: 80%;
                 }
             }
             .haha {
-                width: 100%;
+                width: 85%;
                 height: 80vh;
                 top: 0;
+                transform: translate(-50%,0);
                 position: absolute;
+                left: 50%;
                 @media screen and (max-width:768px) {
                     height: fit-content;
                     width: 130%;
                     left: -15%;
+                    transform: initial;
                 }
                 img {
                     width: 100%;
