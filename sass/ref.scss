@@ -851,3 +851,18 @@ footer {
     background: url('../img/kertas.png');
 }
 
+.img-new {
+    width: 75%;
+    margin: 0 auto;
+    height: auto;
+    top: -36px;
+    position: relative;
+    @media screen and (max-width:768px) {
+        width: 100%;
+    }
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
