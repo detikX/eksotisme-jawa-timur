@@ -189,7 +189,10 @@
                 width: 35vw;
                 height: fit-content;
                 @media screen and (max-width:768px) {
-                    display: none;
+                    // display: none;
+                    bottom: 12%;
+                    width: 60%;
+                    left: -5%;
                 }
                 img {
                     width: 100%;
@@ -267,7 +270,7 @@
             .mobil {
                 position: absolute;
                 right: -8%;
-                z-index: 2;
+                z-index: 4;
                 bottom: 0;
                 width: fit-content;
                 height: auto;
