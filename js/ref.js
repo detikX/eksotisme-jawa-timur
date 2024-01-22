@@ -29,11 +29,11 @@ function ScrollIndicator() {
     // document.getElementById('footer__progress_bar').innerHTML = Math.round(scrolled) + "%"
     console.log(scrolled);
     document.getElementById('footer__progress_bar').innerHTML = mobil;
-    if (Math.round(scrolled) > 7 && Math.round(scrolled) < 8.2) {
-        $(".banyuwangi").addClass('gunung')
-    } else {
-        $(".banyuwangi").removeClass('gunung')
-    }
+    // if (Math.round(scrolled) > 7 && Math.round(scrolled) < 8.2) {
+    //     $(".banyuwangi").addClass('gunung')
+    // } else {
+    //     $(".banyuwangi").removeClass('gunung')
+    // }
 
     if (Math.round(scrolled) > 18 && Math.round(scrolled) < 19.2) {
         $(".djawatan").addClass('gunung')
