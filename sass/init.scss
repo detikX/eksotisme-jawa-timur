@@ -116,10 +116,13 @@ font-family: 'Poppins';
 @media screen and (max-width:768px) {
     // overflow-x: hidden;
 }
-h2, h3, h4, h5 {
+h2, h3 {
     // font-family: 'Outfit';
     font-weight: 700;
     font-family: 'Prompt';
+}
+h4,h5 {
+    font-family: 'Poppins';
 }
 }
 
@@ -144,15 +147,17 @@ h2, h3, h4, h5 {
 
 #nav {
     // background: rgb(105 84 29 / 80%) !important;
-    background: rgba($color: #495057, $alpha: 1) !important;
+    background: rgba(#6e3e17,.8) !important;
     backdrop-filter: blur(11px);
     @media screen and (max-width: 766px) {
         backdrop-filter: initial;
-        background: rgba($color: #495057, $alpha: 1) !important;
+        background: rgba(#6e3e17,.8) !important;
     }
 }
 .bg-blues {
-    background: #000 !important;
+    background: #e2aa6f !important;
+        position: relative;
+    z-index: 11;
 }
 
 .share_icon>a {
